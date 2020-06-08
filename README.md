@@ -10,7 +10,7 @@ Tasks :
 Workflow:
 
 a. Fields
-1) Initilize instance of ChromeDriver class
+1) Initialize instance of ChromeDriver class
 
 b. TestInitialize 
 1) Go to the Url "http://google.com"
