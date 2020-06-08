@@ -9,13 +9,15 @@ Tasks :
 
 Workflow:
 
-a. TestInitialize 
-1) Opens up the browser
-2) Go to the Url "http://google.com"
+a. Fields
+1) Initilize instance of ChromeDriver class
+
+b. TestInitialize 
+1) Go to the Url "http://google.com"
 2) Maximize browser
 3) Set implicit time wait (which stays for entire session)
 
-b. TestMethod
+c. TestMethod
 1) Finds the element with the Name "q" and enters "GeeksForGeeks" there and press Enter (keyboard)
 2) Finds element with the ClassName "r" and click it (Clicking 'GeeksForGeeks' website link)
 3) Finds element with Id "menu-item-351946" and click it (Clicking Tutorials)
@@ -24,6 +26,6 @@ b. TestMethod
 6) Use Assert to check if the page title matches with the required page title ("Stack Data Structure - GeeksforGeeks")
 7) Exception handling is also used
 
-c. TestCleanup : 
+d. TestCleanup : 
 1) Closes the browser
 2) Quits
